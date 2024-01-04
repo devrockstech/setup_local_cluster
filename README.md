@@ -26,6 +26,7 @@ chmod +x ./kind
 mv ./kind /usr/local/bin
 kind version
 ```
+Reference appropriate binary applicable for your system - https://kind.sigs.k8s.io/docs/user/quick-start/#installing-from-release-binaries
 
 ![image](https://user-images.githubusercontent.com/76629897/204838666-d8020b3c-a369-4212-a491-2d2e21259d95.png)
 
