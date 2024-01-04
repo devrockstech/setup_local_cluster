@@ -9,6 +9,7 @@ The below steps have been referenced from the official [website](https://kind.si
 apt install docker.io
 docker version
 ```
+Follow appropriate installation steps applicable to your environment. You can use podman as well if your system doesn't support docker as its licensed. 
 ![image](https://user-images.githubusercontent.com/76629897/204837565-7a1fd49e-d3a0-4f55-ae1a-333932179c2b.png)
 
 ## Install Go Binary
@@ -18,6 +19,7 @@ go version
 ```
 ![image](https://user-images.githubusercontent.com/76629897/204838545-6fe407a6-3724-4420-ab49-a992ed890da6.png)
 
+Follow appropriate installation steps applicable to your environment
 
 ## Install Kind
 ```bash
@@ -26,7 +28,7 @@ chmod +x ./kind
 mv ./kind /usr/local/bin
 kind version
 ```
-Reference appropriate binary applicable for your system , got the official [website](https://kind.sigs.k8s.io/docs/user/quick-start/#installing-from-release-binaries)
+Reference appropriate binary applicable for your system, got the official [website](https://kind.sigs.k8s.io/docs/user/quick-start/#installing-from-release-binaries)
 
 ![image](https://user-images.githubusercontent.com/76629897/204838666-d8020b3c-a369-4212-a491-2d2e21259d95.png)
 
@@ -80,7 +82,12 @@ nodes:
     hostPort: 443
     protocol: TCP
 ```
+
+#
 Now you create cluster with command below
 ```bash
 kind create cluster --config <filename>.yml
 ```
+
+
+
