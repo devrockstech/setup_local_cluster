@@ -53,7 +53,7 @@ apiVersion: kind.x-k8s.io/v1alpha4
 name: <cluster-name>
 networking:
   # WARNING: It is _strongly_ recommended that you keep this the default
-  # (127.0.0.1) for security reasons. However it is possible to change this.
+  # (127.0.0.1) for security reasons. However, it is possible to change this.
   apiServerAddress: "<PUBLIC-IP5"
   # By default the API server >istens on a random open port.
   # You may choose a specific port but probably don't need to in most cases.
@@ -77,5 +77,5 @@ nodes:
 ```
 Now you create cluster with command below
 ```bash
-kind craete cluster --config <filename>.yml
+kind create cluster --config <filename>.yml
 ```
