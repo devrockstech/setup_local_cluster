@@ -2,7 +2,7 @@
 ![image](https://github.com/devrockstech/setup_local_cluster/assets/142865469/fddd593a-063d-461d-8b7b-a7871cd69822)
 
 When you are rushing to test your new Kubernetes manifest or helm charts or kustomize manifest, you don't need to wait on anyone, there is an easy way for you to setup a local cluster on you mac or your desktop machine in very few steps. 
-The below steps have been referenced from the official website (https://kind.sigs.k8s.io/)
+The below steps have been referenced from the official [website](https://kind.sigs.k8s.io/)
 
 ## Install Docker
 ```bash
@@ -26,7 +26,7 @@ chmod +x ./kind
 mv ./kind /usr/local/bin
 kind version
 ```
-Reference appropriate binary applicable for your system - https://kind.sigs.k8s.io/docs/user/quick-start/#installing-from-release-binaries
+Reference appropriate binary applicable for your system , got the official [website](https://kind.sigs.k8s.io/docs/user/quick-start/#installing-from-release-binaries)
 
 ![image](https://user-images.githubusercontent.com/76629897/204838666-d8020b3c-a369-4212-a491-2d2e21259d95.png)
 
