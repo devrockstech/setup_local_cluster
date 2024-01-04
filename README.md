@@ -1,4 +1,3 @@
-theme: jekyll-theme-dinky
 # Local Kubernetes Cluster Setup
 ![image](https://github.com/devrockstech/setup_local_cluster/assets/142865469/fddd593a-063d-461d-8b7b-a7871cd69822)
 
